@@ -1,8 +1,8 @@
 variable "name" {
-  description = "The name of the hosted zone"
+  description = "UNDEFINED"
 }
 
 variable "vpc_id" {
-  description = "The VPC to associate with a private hosted zone. Specifying vpc_id will create a private hosted zone."
+  description = "AWS VPC ID"
   default     = ""
 }

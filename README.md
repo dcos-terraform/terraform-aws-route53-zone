@@ -17,8 +17,8 @@ module "route_53_zone" {
 
 | Name | Description | Type | Default | Required |
 |------|-------------|:----:|:-----:|:-----:|
-| name | The name of the hosted zone | string | n/a | yes |
-| vpc\_id | The VPC to associate with a private hosted zone. Specifying vpc_id will create a private hosted zone. | string | `""` | no |
+| name | UNDEFINED | string | n/a | yes |
+| vpc\_id | AWS VPC ID | string | `""` | no |
 
 ## Outputs
 
