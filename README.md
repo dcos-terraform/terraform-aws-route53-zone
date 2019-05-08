@@ -13,17 +13,16 @@ module "route_53_zone" {
 }
 ```
 
-
 ## Inputs
 
 | Name | Description | Type | Default | Required |
 |------|-------------|:----:|:-----:|:-----:|
-| name | The name of the hosted zone | string | - | yes |
-| vpc_id | The VPC to associate with a private hosted zone. Specifying vpc_id will create a private hosted zone. | string | `` | no |
+| name | The name of the hosted zone | string | n/a | yes |
+| vpc\_id | The VPC to associate with a private hosted zone. Specifying vpc_id will create a private hosted zone. | string | `""` | no |
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
-| zone_id | ID of the Zone Created |
+| zone\_id | ID of the Zone Created |
 
